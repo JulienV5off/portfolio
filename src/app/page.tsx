@@ -17,7 +17,7 @@ const Page = () => {
       <div className="absolute top-4 left-0 w-96 h-96 md:block hidden opacity-50 animate-float">
         <Image src={"/img/atom_hexa.png"} width={600} height={600} alt="atom" />
       </div>
-      <div className="absolute top-10 right-20 w-44 h-44 opacity-50 animate-floatReverse">
+      <div className="absolute top-10 right-20 w-44 h-44 md:opacity-50 opacity-20 animate-floatReverse">
         <Image
           src={"/img/block_cage.png"}
           width={600}
@@ -38,7 +38,6 @@ const Page = () => {
       <Skills />
       <Works />
       <Contact />
-      
     </div>
   );
 };

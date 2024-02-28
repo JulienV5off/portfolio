@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 import { skills } from "../../constants";
 import Image from "next/image";
+import { useInView } from "framer-motion";
 
 const Skills = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref);
   return (
     <section
       id="skills"
@@ -28,7 +31,7 @@ const Skills = () => {
       </div>
       <div className="flex flex-col mt-14 gap-4 w-full">
         {skills.map((skill, index) => (
-          <div key={index} className="flex gap-3 leading-3">
+          <div ref={ref} key={index} className="flex gap-3 leading-3">
             <div
               className={`${skill.color} rounded-2xl px-3 flex items-center justify-center`}
             >
@@ -36,6 +39,11 @@ const Skills = () => {
             </div>
             <div className="bg-gray-200 rounded-full h-2.5 my-2 dark:bg-gray-300 w-1/2">
               <div
+                style={{
+                  transform: `scaleX(${isInView ? 1 : 0})`,
+                  transition: "transform 1.5s ease-out, opacity 1.5s ease-out",
+                  transformOrigin: "left", // Set the transform origin to left
+                }}
                 className={`${skill.color} h-2.5 rounded-full ${skill.level}`}
               ></div>
             </div>

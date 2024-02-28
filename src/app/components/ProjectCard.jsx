@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
@@ -21,11 +22,11 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
     };
   }, []);
   return (
-    <div
+    <motion.div
       ref={cardRef}
-      className={`bg-gray-100 p-5 rounded-2xl sm:w-[360px] w-full ${
-        isVisible ? "animate-card-enter" : ""
-      }`}
+      className="bg-gray-100 p-5 rounded-2xl sm:w-[360px] w-full"
+      whileHover={{ scale: [null, 1, 1.05], rotate: [null, 1, 1.05] }}
+      transition={{ duration: 0.2 }}
     >
       <div className="relative w-full ">
         <div className="flex justify-between p-2 gap-1 items-center">
@@ -78,7 +79,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
