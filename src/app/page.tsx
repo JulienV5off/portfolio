@@ -1,20 +1,16 @@
 "use client";
-
-import Link from "next/link";
 import Image from "next/image";
-import React, { useEffect, useRef, useState } from "react";
-import ProjectCard from "./components/ProjectCard";
-import { projects } from "../constants/index";
 import Works from "./components/Works";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
 
 type Props = {};
 const Page = () => {
   return (
     <div style={{ fontFamily: "Coastgane, sans-serif" }}>
       {/* https://bg.ibelick.com */}
-      <div className="absolute inset-0 -z-10 h-screen w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+      <div className="absolute inset-0 -z-10 min-h-screen w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
       {/* https://www.shapefest.com */}
       <div className="absolute top-4 left-0 w-96 h-96 md:block hidden opacity-50 animate-float">
@@ -37,9 +33,9 @@ const Page = () => {
         />
       </div>
       <Navbar />
-
       <Home />
       <Works />
+      <Contact />
     </div>
   );
 };

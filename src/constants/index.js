@@ -9,7 +9,6 @@ export const projects = [
         { name: "MongoDB", color: "bg-green-200" }, // Tailwind class for MongoDB green
         { name: "Sustainability", color: "bg-green-200" } // Tailwind class for sustainability green
       ],
-      image: "ecoconnect.jpg",
       source_code_link: "https://github.com/yourusername/ecoconnect",
     },
     {
@@ -22,7 +21,6 @@ export const projects = [
         { name: "AI", color: "bg-pink-200" }, // Tailwind class for AI pink
         { name: "News Aggregator", color: "bg-yellow-200" } // Tailwind class for news yellow
       ],
-      image: "techtrend.jpg",
       source_code_link: "https://github.com/yourusername/techtrend",
     },
     {
@@ -35,7 +33,6 @@ export const projects = [
         { name: "Fitness", color: "bg-pink-200" }, // Tailwind class for fitness pink
         { name: "Progress Tracking", color: "bg-blue-200" } // Tailwind class for progress tracking blue
       ],
-      image: "fittrack.jpg",
       source_code_link: "https://github.com/yourusername/fittrack",
     },
     {
@@ -48,7 +45,6 @@ export const projects = [
         { name: "Collaboration", color: "bg-red-200" }, // Tailwind class for collaboration red
         { name: "Real-time", color: "bg-teal-200" } // Tailwind class for real-time teal
       ],
-      image: "codecollab.jpg",
       source_code_link: "https://github.com/yourusername/codecollab",
     },
     {
@@ -61,7 +57,6 @@ export const projects = [
         { name: "Community", color: "bg-green-200" }, // Tailwind class for community green
         { name: "Recipes", color: "bg-orange-200" } // Tailwind class for recipes orange
       ],
-      image: "reciperealm.jpg",
       source_code_link: "https://github.com/yourusername/reciperealm",
     },
     {
@@ -73,7 +68,6 @@ export const projects = [
         { name: "Ruby on Rails", color: "bg-red-200" }, // Tailwind class for Ruby on Rails red
         { name: "Education", color: "bg-blue-200" }, // Tailwind class for education blue
       ],
-      image: "studybuddy.jpg",
       source_code_link: "https://github.com/yourusername/studybuddy",
     },
   ];

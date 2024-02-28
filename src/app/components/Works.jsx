@@ -6,7 +6,7 @@ const Works = () => {
   return (
     <section
       id="works"
-      className={`flex flex-col h-screen transition-all duration-500 transform py-20 px-24 w-full`}
+      className={`flex flex-col transition-all duration-500 transform py-20 px-24 min-h-screen w-full`}
     >
       <div>
         <h1 className="text-7xl lg:text-left text-center w-full">Works</h1>
@@ -17,7 +17,7 @@ const Works = () => {
           projects.
         </span>
       </div>
-      <div className="flex flex-wrap justify-between gap-16 mt-14 w-full">
+      <div className="flex flex-wrap justify-around gap-16 mt-14 w-full">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
