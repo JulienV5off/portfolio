@@ -58,7 +58,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
           </div>
         </div>
         <img
-          src="https://random.imagecdn.app/800/500"
+          src="/img/wave-bg.svg"
           alt="project_image"
           className="w-full h-full object-cover rounded-2xl"
         />

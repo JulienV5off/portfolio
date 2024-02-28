@@ -18,7 +18,7 @@ const Navbar = () => {
         </ul>
       </nav>
       <aside className="flex gap-2 items-center">
-        <Link href={"/mongithub"}>
+        <Link href={"https://github.com/JulienV5off/portfolio"}>
           <Image
             src={"/img/github-mark.svg"}
             width={30}
