@@ -11,7 +11,7 @@ const Skills = () => {
       <div className="absolute top-4 right-5 w-96 h-96 md:block hidden opacity-50 animate-float">
         <Image src={"/img/atom_hexa.png"} width={600} height={600} alt="atom" />
       </div>
-      <div className="absolute bottom-8 md:left-1/2 right-10 w-96 h-96 opacity-50 animate-floatReverse2">
+      <div className="hidden absolute bottom-8 md:left-1/2 md:flex right-10 w-96 h-96 opacity-50 animate-floatReverse2">
         <Image
           src={"/img/atom_tetra.png"}
           width={600}

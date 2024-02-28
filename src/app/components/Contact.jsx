@@ -18,29 +18,27 @@ const Contact = () => {
       >
         <div className="flex flex-col">
           <div>
-            <h1 className="text-7xl lg:text-left text-center w-full">
-              Contact
-            </h1>
+            <h1 className="text-7xl text-left w-full">Contact</h1>
           </div>
           <div>
-            <span>
+            <span className="lg:text-left text-center w-full">
               Contact me for any project or collaboration. I am available for
               any web development project.
             </span>
           </div>
         </div>
 
-        <div className="grid grid-cols-3 items-center w-full ">
+        <div className="grid sm:grid-cols-3 grid-cols-1 gap-6 items-center w-full ">
           <div className="flex flex-col">
-            <h2 className="text-4xl lg:text-left text-center w-full">Email</h2>
+            <h2 className="text-4xl text-left w-full">Email</h2>
             <span>julien.sarrau@edu.esiee.fr</span>
           </div>
           <div className="flex flex-col">
-            <h2 className="text-4xl lg:text-left text-center w-full">Mobile</h2>
+            <h2 className="text-4xl text-left w-full">Mobile</h2>
             <span>+33 6 12 34 56 78</span>
           </div>
           <div className="flex flex-col">
-            <h2 className="text-4xl lg:text-left text-center w-full">Links</h2>
+            <h2 className="text-4xl text-left w-full">Links</h2>
             <div className="flex gap-4">
               <Link href={"/mongithub"}>
                 <Image
