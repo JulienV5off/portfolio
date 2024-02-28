@@ -8,6 +8,7 @@ const Works = () => {
       id="works"
       className={`flex flex-col transition-all duration-500 transform py-20 px-24 min-h-screen w-full`}
     >
+      <div className="absolute inset-0 -z-10 min-h-screen w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
       <div>
         <h1 className="text-7xl lg:text-left text-center w-full">Works</h1>
       </div>

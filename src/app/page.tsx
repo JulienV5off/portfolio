@@ -4,6 +4,7 @@ import Works from "./components/Works";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 type Props = {};
 const Page = () => {
@@ -34,8 +35,10 @@ const Page = () => {
       </div>
       <Navbar />
       <Home />
+      <Skills />
       <Works />
       <Contact />
+      
     </div>
   );
 };
