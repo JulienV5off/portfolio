@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/global.css */
+@font-face {
+  font-family: "Coastgane";
+  src: url("/fonts/Coastgane.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
