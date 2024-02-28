@@ -14,10 +14,10 @@ const Page = () => {
       <div className="absolute inset-0 -z-10 min-h-screen w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
       {/* https://www.shapefest.com */}
-      <div className="absolute top-4 left-0 w-96 h-96 md:block hidden opacity-50 animate-float">
+      <div className="absolute top-4 left-0 w-96 h-96 sm:block hidden opacity-50 animate-float">
         <Image src={"/img/atom_hexa.png"} width={600} height={600} alt="atom" />
       </div>
-      <div className="absolute top-10 right-20 w-44 h-44 md:opacity-50 opacity-20 animate-floatReverse">
+      <div className="absolute hidden top-10 right-20 w-44 h-44 sm:block opacity-50 animate-floatReverse">
         <Image
           src={"/img/block_cage.png"}
           width={600}
@@ -25,7 +25,7 @@ const Page = () => {
           alt="block-cage"
         />
       </div>
-      <div className="absolute bottom-0 md:left-1/2 left-20 w-96 h-96 opacity-50 animate-floatReverse2">
+      <div className="absolute hidden bottom-0 md:left-1/2 left-20 w-96 h-96 sm:block opacity-50 animate-floatReverse2">
         <Image
           src={"/img/atom_tetra.png"}
           width={600}
