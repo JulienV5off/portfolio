@@ -10,7 +10,7 @@ const Works = () => {
   return (
     <section
       id="works"
-      className={`flex flex-col transition-all duration-500 transform py-20 px-24 min-h-screen w-full`}
+      className={`flex flex-col transition-all duration-500 transform py-20 sm:px-24 px-20 min-h-screen w-full`}
       ref={ref}
     >
       <div className="absolute inset-0 -z-10 min-h-screen w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
