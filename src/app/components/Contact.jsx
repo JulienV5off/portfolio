@@ -59,8 +59,11 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 flex w-full justify-center items-center h-20">
+      <div className="absolute bottom-0 flex flex-col sm:flex-row gap-1 sm:gap-4 w-full justify-center items-center h-20 text-sm">
         <p>© 2024 - All rights reserved </p>
+        <Link href={"/mentions-legales"} className="underline underline-offset-4">
+          Mentions légales et confidentialité
+        </Link>
       </div>
     </section>
   );
