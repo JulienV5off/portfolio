@@ -21,3 +21,9 @@ dist-ssr
 .next/*
 .env
 .npm
+
+AGENTS.md
+CLAUDE.md
+.claude/
+.env.local
+*.tsbuildinfo
